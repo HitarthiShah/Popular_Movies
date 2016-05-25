@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_most_popular"
+            android:icon="@drawable/ic_whatshot_black_24dp"
+            android:title="@string/most_popular"
+            android:checked="true"/>
+        <item
+            android:id="@+id/menu_highest_rated"
+            android:icon="@drawable/ic_trending_up_black_24dp"
+            android:title="@string/highest_rated" />
+    </group>
+
+</menu>
